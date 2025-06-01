@@ -19,7 +19,6 @@ std::string generatePassword(int length) {
     return password;
 }
 int main() {
-    setlocale(LC_ALL, "Russian");
     const int passwordLength = 12;
     std::string password = generatePassword(passwordLength);
     std::cout << "Generated Password: " << password << std::endl;
